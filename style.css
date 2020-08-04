@@ -1,0 +1,82 @@
+.total {
+	color: Blue;
+	font-weight: bolder;
+	font-size: 50px;
+}
+
+.coinForm {
+	display: flex;
+	flex-direction: column;
+}
+.btn {
+	height: 50px;
+	width: 150px;
+	background-color: #00bcd4;
+	border: 0.5rem outset #00bcd4;
+	font: bold 1rem sans-serif;
+}
+.coin-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.coin {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+	border: 1px solid gray;
+	background-color: lightgray;
+}
+
+.penny {
+	height: 55px;
+	width: 55px;
+	background-color: chocolate;
+}
+
+.nickel {
+	height: 75px;
+	width: 75px;
+}
+
+.dime {
+	height: 50px;
+	width: 50px;
+}
+
+.quarter {
+	height: 90px;
+	width: 90px;
+}
+
+/* #3 LIGHT BULB */
+
+.light_bulb {
+	display: flex;
+	color: white;
+	font-size: large;
+	align-items: center;
+	justify-content: flex-start;
+	width: 150px;
+	height: 60px;
+	background-color: gray;
+	border-radius: 10px;
+	padding: 5px;
+}
+
+.switch_on {
+	background-color: yellow;
+}
+
+.disabled {
+	height: 50px;
+	width: 150px;
+	background-color: lightgray;
+	border: 0.5rem outset lightgray;
+	font: normal 1rem sans-serif;
+	color: gray;
+	opacity: 0.6;
+	cursor: not-allowed;
+}

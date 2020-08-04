@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Lab4 DOM</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<h1>#1 VENDING MACHINE</h1>
+		<div>
+			<button class="btn food LimeCola" data-amt="2">LIME COLA $2.00</button>
+			<button class="btn food SaltedPeanut" data-amt="3">
+				SALTED PEANUTS $3.00
+			</button>
+			<button class="btn food ChocBar" data-amt="4">CHOCOLATE BAR $4.00</button>
+			<button class="btn food frtGummy" data-amt="6">
+				FRUIT GUMMIES $6.00
+			</button>
+		</div>
+		<div>
+			<h2>Total :</h2>
+			<div class="total"></div>
+		</div>
+
+		<h1>#2 MAKE MONEY</h1>
+		<form class="coinForm">
+			<section>
+				<label for="numCoins">How many?</label>
+				<input type="number" name="numCoins" id="numCoins" />
+			</section>
+			<section>
+				<label for="denomination">Which coin?</label>
+
+				<select class="denomination" name="denomination" id="denomination">
+					<option class="selectedDenomination" value="penny">Penny</option>
+					<option class="selectedDenomination" value="nickel">Nickel</option>
+					<option class="selectedDenomination" value="dime">Dime</option>
+					<option class="selectedDenomination" value="quarter">Quarter</option>
+				</select>
+			</section>
+			<p></p>
+			<div>
+				<button class="btn submit" type="submit">Make Money!</button>
+
+				<h2>Total :</h2>
+				<div class="sumTotal total"></div>
+			</div>
+			<p></p>
+		</form>
+
+		<p></p>
+		<h1>#3 LIGHT BULB</h1>
+		<div class="light_bulb">Light Bulb</div>
+		<p></p>
+		<button class="btn bulb swOn">On</button>
+		<button class="btn bulb swOff">Off</button>
+		<button class="btn bulb swToggle">Toggle</button>
+		<button class="btn bulb swEnd">End</button>
+
+		<script src="script.js"></script>
+	</body>
+</html>
